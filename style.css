@@ -1,0 +1,98 @@
+    .wrapper {
+    display         : flex;
+    height          : 100vh;
+    }
+    
+    
+    h1 {
+    padding-top     : 30px;
+    font-family     : 'Alegreya', serif, Arial, Helvetica, sans-serif;
+    text-transform  : uppercase;
+    font-weight     : bolder;
+    }
+    
+    h1 span {
+    color           : #DEBE00;
+    }
+    
+    .fonction {
+    font-family     : 'Alegreya', serif, Arial, Helvetica, sans-serif;
+    line-height     : 10px;
+    }
+    
+    .fonction span {
+    border-bottom   : 1px solid #DEBE00;
+    }
+    
+    .photo {
+    display         : flex;
+    height          : 120px;
+    width           : 120px;
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-bottom   : 20px;
+    }
+    
+    img {
+    border-radius   : 50%;
+    height          : 100%;
+    width           : 100%;
+    }
+    
+    
+    .col-sm-4 h2 {
+    font-family     : 'Vollkorn', serif, Arial, Helvetica, sans-serif;
+    font-size       : 20px;
+    font-weight     : bold;
+    text-align      : center;
+    text-transform  : uppercase;
+    color           : #DEBE00;
+    background-color: rgb(26, 24, 23);
+    }
+    
+    .col-sm-4 p {
+    font-family     : 'Roboto', serif, Arial, Helvetica, sans-serif;
+    font-size       : 14px;
+    padding-left    : 15px;
+    }
+    
+    .contenu {
+    padding-top     : 50px;
+    font-family     : 'Roboto', serif, Arial, Helvetica, sans-serif;
+    font-size       : 14px;
+    }
+    
+    .col-sm-8 h2 {
+    font-family     : 'Vollkorn', serif, Arial, Helvetica, sans-serif;
+    font-size       : 20px;
+    font-weight     : bold;
+    text-transform  : uppercase;
+    border-bottom   : 1px solid #DEBE00;
+    }
+    h3 {
+    font-size       : 16px;
+    font-weight     : bold;
+    text-transform  : uppercase;
+    }
+    
+    .loisirs {
+    display         : flex;
+    justify-content : space-evenly;
+    font-size       : 36px;
+    padding-top     : 10px;
+    }
+    
+    
+    /* Font Awesome Icons Styles */
+    
+    .fa-suitcase, .fa-graduation-cap, .fa-pen {
+    font-size       : 20px;
+    float           : left;
+    padding-right   : 15px;
+    color           : #DEBE00;
+    }
+    
+    .fa-dot-circle {
+    padding-right   : 20px;
+    float           : left;
+    }
