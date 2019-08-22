@@ -1,93 +1,87 @@
-   html {
-    font-size: 100%;
-   }
+            
+        h1 {
+        padding-top     : 3rem;
+        font-size       : 3rem;
+        font-family     : 'Alegreya', serif, Arial, Helvetica, sans-serif;
+        text-transform  : uppercase;
+        font-weight     : bolder;
+        }
+        
+        h1 span {
+        color           : #229bc7;
+        }
 
-    .wrapper {
-    display         : flex;
-    height          : 100vh;
-    }
-    
-    
-    h1 {
-    padding-top     : 3rem;
-    font-size: 3rem;
-    font-family     : 'Alegreya', serif, Arial, Helvetica, sans-serif;
-    text-transform  : uppercase;
-    font-weight     : bolder;
-    }
-    
-    h1 span {
-    color           : #DEBE00;
-    }
-    
-    .fonction {
-    font-family     : 'Alegreya', serif, Arial, Helvetica, sans-serif;
-    line-height     : 10px;
-    }
-    
-    .fonction span {
-    border-bottom   : 1px solid #DEBE00;
-    }
-    
-    .col-sm-4 h2 {
-    font-family     : 'Vollkorn', serif, Arial, Helvetica, sans-serif;
-    font-size       : 1.5rem;
-    font-weight     : bold;
-    text-align      : center;
-    text-transform  : uppercase;
-    color           : #DEBE00;
-    background-color: rgb(26, 24, 23);
-    }
-    
-    .col-sm-4 p {
-    font-family     : 'Roboto', serif, Arial, Helvetica, sans-serif;
-    font-size       : 0.8rem;
-    padding-left    : 15px;
-    }
-    
-    .contenu {
-    padding-top     : 50px;
-    font-family     : 'Roboto', serif, Arial, Helvetica, sans-serif;
-    font-size       : 0.8rem;
-    }
-    
-    .col-sm-8 h2 {
-    font-family     : 'Vollkorn', serif, Arial, Helvetica, sans-serif;
-    font-size       : 1.5rem;
-    font-weight     : bold;
-    text-transform  : uppercase;
-    border-bottom   : 1px solid #DEBE00;
-    }
+        .col-md-5 h2 {
+        font-family     : 'Vollkorn', serif, Arial, Helvetica, sans-serif;
+        font-size       : 1.5rem;
+        font-weight     : bold;
+        text-align      : center;
+        margin-left     : -15px;
+        margin-right    : -15px;
+        text-transform  : uppercase;
+        color           : #229bc7;
+        background-color: rgb(26, 24, 23);
+        }
 
-    h3 {
-    font-size       : 1rem;
-    font-weight     : bold;
-    text-transform  : uppercase;
-    }
-    
-    .loisirs {
-    display         : flex;
-    justify-content : space-around;
-    font-size       : 36px;
-    padding-top     : 10px;
-    }
-    
-    
-    /* Font Awesome Icons Styles */
-    
-    .fa-suitcase, .fa-graduation-cap, .fa-pen {
-    font-size       : 2rem;
-    float           : left;
-    padding-right   : 15px;
-    color           : #DEBE00;
-    }
-    
-    .fa-dot-circle {
-    color    : #DEBE00;
-    
-    }
+        .col-md-7 h2 {
+        font-family     : 'Vollkorn', serif, Arial, Helvetica, sans-serif;
+        font-size       : 1.5rem;
+        font-weight     : bold;
+        text-transform  : uppercase;
+        line-height: 1.5;
+        border-bottom   : 1px solid #229bc7;
+        }
 
-    .fa-circle {
-        color    : #DEBE00;
-        font-size: xx-small;
-    }
+         h3 {
+        font-size       : 1rem;
+        font-weight     : bold;
+        text-transform  : uppercase;
+        }
+
+        .col-md-5 p {
+        font-family     : 'Roboto', serif, Arial, Helvetica, sans-serif;
+        font-size       : 0.8rem;
+        padding-left    : 15px;
+        }
+        
+         .fonction span {
+        border-bottom   : 1px solid #229bc7;
+        }
+
+        .fonction {
+        font-family     : 'Alegreya', serif, Arial, Helvetica, sans-serif;
+        line-height     : 1px;
+        }
+         
+        
+        .contenu {
+        padding-top     : 50px;
+        font-family     : 'Roboto', serif, Arial, Helvetica, sans-serif;
+        font-size       : 0.8rem;
+        }
+        
+        
+        /* Font Awesome Icons Styles */
+
+        .loisirs {
+        display         : flex;
+        justify-content : space-around;
+        font-size       : 2.5rem;
+        padding-top     : 10px;
+        }
+        
+        .fa-suitcase, .fa-graduation-cap, .fa-pen {
+        font-size       : 2rem;
+        float           : left;
+        padding-right   : 15px;
+        color           : #229bc7;
+        }
+        
+        .fa-dot-circle {
+        color           : #229bc7;
+        }
+        
+        .fa-circle {
+        color           : #229bc7;
+        font-size       : xx-small;
+        }
