@@ -11,6 +11,13 @@
             color            : #229bc7;
             }
             
+            
+            main {
+            padding-top      : 50px;
+            font-family      : 'Roboto', serif, Arial, Helvetica, sans-serif;
+            font-size        : 0.8rem;
+            }
+            
             .col-md-5 h2 {
             font-family      : 'Vollkorn', serif, Arial, Helvetica, sans-serif;
             font-size        : 1.5rem;
@@ -53,14 +60,6 @@
             line-height      : 1px;
             }
             
-            
-            .contenu {
-            padding-top      : 50px;
-            font-family      : 'Roboto', serif, Arial, Helvetica, sans-serif;
-            font-size        : 0.8rem;
-            }
-            
-            
             /* Font Awesome Icons Styles */
             
             .loisirs {
@@ -73,7 +72,7 @@
             .fa-suitcase, .fa-graduation-cap, .fa-pen {
             font-size        : 2rem;
             float            : left;
-            padding-right    : 25px;
+            padding-right    : 20px;
             color            : #229bc7;
             }
             
